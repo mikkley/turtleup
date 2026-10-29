@@ -36,6 +36,9 @@ struct SettingsView: View {
                     set: { LaunchAtLogin.setEnabled($0); launchAtLoginOn = LaunchAtLogin.isEnabled }
                 ))
                 .onAppear { launchAtLoginOn = LaunchAtLogin.isEnabled }
+                Text(L10n.launchAtLoginDesc)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
             }
             Section(L10n.secPosture) {
                 Picker(L10n.sensitivityLabel, selection: sensitivity) {

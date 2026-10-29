@@ -495,6 +495,14 @@ extension L10n {
         case .ko: "로그인 시 자동 실행"
         }
     }
+    public static var launchAtLoginDesc: String {
+        switch resolved {
+        case .zhHans, .system: "也可在 系统设置 → 通用 → 登录项 里随时关闭或重新开启。"
+        case .en: "You can also turn this off (or back on) anytime in System Settings → General → Login Items."
+        case .ja: "システム設定 → 一般 → ログイン項目 からいつでもオフ／オンにできます。"
+        case .ko: "시스템 설정 → 일반 → 로그인 항목에서 언제든 끄거나 다시 켤 수 있습니다."
+        }
+    }
     public static var secIsland: String {
         switch resolved {
         case .zhHans, .system: "灵动岛"
