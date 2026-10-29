@@ -6,7 +6,7 @@ macOS 灵动岛应用：用 AirPods 运动传感器（`CMHeadphoneMotionManager`
 低头提醒 + 25+5 番茄钟 + 坐姿统计 + 休息段头控微游戏（五只"僵硬怪"对应五个颈部舒展动作）
 + 成长系统（水滴浇山、五怪图鉴星级）。菜单栏常驻 accessory 应用（`LSUIElement`，不进 Dock）。
 
-- Bundle ID：`com.turtleup.mac`；当前版本 0.3.1（见 `Resources/Info.plist`，发版要同步改这里）
+- Bundle ID：`com.turtleup.mac`；当前版本 0.3.2（见 `Resources/Info.plist`，发版要同步改这里）
 - 硬件要求：AirPods Pro（1 代+）/ AirPods 3 / AirPods Max / Beats Fit Pro；
   首次运行需授予「运动与健身」权限（`NSMotionUsageDescription`）
 - 设计依据：`docs/gamification-design.md`（源码注释里的「设计文档 §x.x」都指它）；
